@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ASRate_Example', :exclusive => true do
+  pod "ASRate", :path => "../"
+end
+
+target 'ASRate_Tests', :exclusive => true do
+  pod "ASRate", :path => "../"
+
+  
+end
