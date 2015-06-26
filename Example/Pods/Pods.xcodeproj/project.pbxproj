@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1E1DCD157B4A196FBC63CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E46DE9608E10958A3DEDC91 /* Foundation.framework */; };
+		1E9C7A0404D98BC685CC5DAC /* Pods-ASRate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F8F6FA28F6502ACFC4F54 /* Pods-ASRate_Tests-dummy.m */; };
+		202DB26D2A40AF3C61AAFA59 /* Pods-ASRate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E07948B3279CB7F7B8941 /* Pods-ASRate_Example-dummy.m */; };
+		3087716039D4D40EAD80E2A8 /* Pods-ASRate_Example-ASRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 647FB7588ABF525F35B74084 /* Pods-ASRate_Example-ASRate-dummy.m */; };
+		35A92254FEE36CAD6823ADD4 /* Pods-ASRate_Tests-ASRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCADB93756648C2F60C8D535 /* Pods-ASRate_Tests-ASRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5282F945142DAFC248C9797B /* Pods-ASRate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD16E896F00CF1C8186C4F14 /* Pods-ASRate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56495F2EE843D45BD134AC8A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E24944DFA63F397D61DA19 /* ReplaceMe.m */; };
+		56EC97C50CADCF7D8577589A /* ASRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5CE737F4BEBCB318C1989E0 /* ASRate.bundle */; };
+		6E484A830E970D0AB917E789 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E46DE9608E10958A3DEDC91 /* Foundation.framework */; };
+		8D2EB2C0DF1A172FBEF714E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E46DE9608E10958A3DEDC91 /* Foundation.framework */; };
+		95B0D136ACD2BB451FF327A8 /* Pods-ASRate_Tests-ASRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED4F1834F45B7B9C9A3C69 /* Pods-ASRate_Tests-ASRate-dummy.m */; };
+		A595EC5A49C1230D114E783D /* Pods-ASRate_Example-ASRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2CEB190705D978EA2CBB8A /* Pods-ASRate_Example-ASRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8EB5B2C0BBD3CBD886E1E0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E24944DFA63F397D61DA19 /* ReplaceMe.m */; };
+		DD832ECCA908FAD534C8BD48 /* ASRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DEF708F7376AD825D3AFE5A0 /* ASRate.bundle */; };
+		F24F2CB72A6998CF2FD7D76F /* Pods-ASRate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5640B489A23CAC767E5A8A56 /* Pods-ASRate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8AAC9AC4E8B3DF0F497682F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E46DE9608E10958A3DEDC91 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B5A054EC9F25687117D9D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B6CE8E7D62FBC3A80E9286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E2EC88DEEAD9C9B49B5374;
+			remoteInfo = "Pods-ASRate_Tests-ASRate";
+		};
+		13D168C9D7331B435F5BAE32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B6CE8E7D62FBC3A80E9286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFF79BBBBF185B3EEE37712;
+			remoteInfo = "Pods-ASRate_Example-ASRate";
+		};
+		C756AFCD3AB8081D3B946C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B6CE8E7D62FBC3A80E9286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001B5EB416F0833860C9D816;
+			remoteInfo = "Pods-ASRate_Tests-ASRate-ASRate";
+		};
+		DE7A475D746123A98F3BA490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B6CE8E7D62FBC3A80E9286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB6164B5D0AFF9790B121AF;
+			remoteInfo = "Pods-ASRate_Example-ASRate-ASRate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DAAF2A57409EE76E61522A /* Pods-ASRate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASRate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02E68137C57A21A025947029 /* Pods-ASRate_Tests-ASRate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRate_Tests-ASRate-Private.xcconfig"; path = "../Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate-Private.xcconfig"; sourceTree = "<group>"; };
+		097E07948B3279CB7F7B8941 /* Pods-ASRate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASRate_Example-dummy.m"; sourceTree = "<group>"; };
+		11336C49DA23E00FAF6B1D08 /* Pods-ASRate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASRate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		11F2367D5B4864857E3C6663 /* Pods_ASRate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B0662A3AAE92637787CD28 /* Pods-ASRate_Example-ASRate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASRate_Example-ASRate-prefix.pch"; sourceTree = "<group>"; };
+		19948463BF1E1FD33495479B /* Pods-ASRate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASRate_Example.modulemap"; sourceTree = "<group>"; };
+		1C2CEB190705D978EA2CBB8A /* Pods-ASRate_Example-ASRate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASRate_Example-ASRate-umbrella.h"; sourceTree = "<group>"; };
+		1FFBE44C7C882C43015DC820 /* Pods-ASRate_Tests-ASRate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ASRate_Tests-ASRate-prefix.pch"; path = "../Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate-prefix.pch"; sourceTree = "<group>"; };
+		203E69C66E0BFCE08928C160 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212118558FA18CE67EDD408A /* Pods-ASRate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25ED4F1834F45B7B9C9A3C69 /* Pods-ASRate_Tests-ASRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ASRate_Tests-ASRate-dummy.m"; path = "../Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate-dummy.m"; sourceTree = "<group>"; };
+		2D4DBEE3D48F4A9CE4F913B2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E46DE9608E10958A3DEDC91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		421DB7BF86246D63E5C160C5 /* ASRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		469E6DC20386D0276D47DCCA /* Pods-ASRate_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASRate_Example-environment.h"; sourceTree = "<group>"; };
+		5640B489A23CAC767E5A8A56 /* Pods-ASRate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASRate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		647FB7588ABF525F35B74084 /* Pods-ASRate_Example-ASRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASRate_Example-ASRate-dummy.m"; sourceTree = "<group>"; };
+		6761307A95B88B3B4374C341 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ASRate_Tests-ASRate/Info.plist"; sourceTree = "<group>"; };
+		679707320A0AD08536220CFB /* Pods-ASRate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6909B6603817C8EE31BA1699 /* Pods-ASRate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASRate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D2CBF20DE88B0F57075E7D0 /* Pods-ASRate_Example-ASRate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRate_Example-ASRate.xcconfig"; sourceTree = "<group>"; };
+		729C832AB9F971BCAD4AEC5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7834F0FC7C76BEB20C4F07D9 /* Pods_ASRate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C22A585DB2127C89D0FBF9 /* Pods-ASRate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASRate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9057EBF929084CA6C0D20FBF /* Pods-ASRate_Tests-ASRate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRate_Tests-ASRate.xcconfig"; path = "../Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate.xcconfig"; sourceTree = "<group>"; };
+		97F78F1777F61C5312E1699E /* Pods-ASRate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASRate_Example-resources.sh"; sourceTree = "<group>"; };
+		99B21AB7CA485660E7D0DFE1 /* Pods-ASRate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A9D1863860816FD537D618B /* Pods-ASRate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASRate_Tests.modulemap"; sourceTree = "<group>"; };
+		A1E24944DFA63F397D61DA19 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A98D31D86A7AC97DD470E2A4 /* Pods-ASRate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASRate_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B06CCE913AF3FAF8C48B8CC8 /* Pods-ASRate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASRate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4E7D6D06F66E5445911358F /* Pods-ASRate_Example-ASRate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASRate_Example-ASRate.modulemap"; sourceTree = "<group>"; };
+		C1188C9617DB7A65D382B1E9 /* Pods-ASRate_Tests-ASRate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ASRate_Tests-ASRate.modulemap"; path = "../Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate.modulemap"; sourceTree = "<group>"; };
+		C5CE737F4BEBCB318C1989E0 /* ASRate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73F8F6FA28F6502ACFC4F54 /* Pods-ASRate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASRate_Tests-dummy.m"; sourceTree = "<group>"; };
+		DCADB93756648C2F60C8D535 /* Pods-ASRate_Tests-ASRate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ASRate_Tests-ASRate-umbrella.h"; path = "../Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate-umbrella.h"; sourceTree = "<group>"; };
+		DEF708F7376AD825D3AFE5A0 /* ASRate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BBE837D563C55B48D29C44 /* Pods-ASRate_Example-ASRate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRate_Example-ASRate-Private.xcconfig"; sourceTree = "<group>"; };
+		E270788668BA773916A710E7 /* Pods-ASRate_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASRate_Tests-environment.h"; sourceTree = "<group>"; };
+		E389691C50C81095860BDC4B /* ASRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA50ADF366352F6A625BAA94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3304F28DD580B60314839F /* Pods-ASRate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASRate_Tests-resources.sh"; sourceTree = "<group>"; };
+		EF9D59899B0A50A62BDF7210 /* Pods-ASRate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASRate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD16E896F00CF1C8186C4F14 /* Pods-ASRate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASRate_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CFAFD09DCED8084E9031527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1E1DCD157B4A196FBC63CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150D52F74A862CDCC64621B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E484A830E970D0AB917E789 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01D78CC08F63CF275AF1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AAC9AC4E8B3DF0F497682F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C282C7967AAB079C9E75883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C70EC0909B764CD81D489D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBAE4AACDCE8A30A3D04EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2EB2C0DF1A172FBEF714E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271B471924973A32352F2804 /* ASRate */ = {
+			isa = PBXGroup;
+			children = (
+				6E43645C8A587943CD138D64 /* Pod */,
+				769E66BE64275F0336DC785F /* Support Files */,
+			);
+			name = ASRate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		61A87BA5F782936861B6C1AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A31B23754476B656B2295382 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E43645C8A587943CD138D64 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B818A6CDC05FF440DE6BF0C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		74FBCDF632BE9E70F5559540 /* Pods-ASRate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				729C832AB9F971BCAD4AEC5D /* Info.plist */,
+				19948463BF1E1FD33495479B /* Pods-ASRate_Example.modulemap */,
+				00DAAF2A57409EE76E61522A /* Pods-ASRate_Example-acknowledgements.markdown */,
+				B06CCE913AF3FAF8C48B8CC8 /* Pods-ASRate_Example-acknowledgements.plist */,
+				097E07948B3279CB7F7B8941 /* Pods-ASRate_Example-dummy.m */,
+				469E6DC20386D0276D47DCCA /* Pods-ASRate_Example-environment.h */,
+				11336C49DA23E00FAF6B1D08 /* Pods-ASRate_Example-frameworks.sh */,
+				97F78F1777F61C5312E1699E /* Pods-ASRate_Example-resources.sh */,
+				FD16E896F00CF1C8186C4F14 /* Pods-ASRate_Example-umbrella.h */,
+				EF9D59899B0A50A62BDF7210 /* Pods-ASRate_Example.debug.xcconfig */,
+				99B21AB7CA485660E7D0DFE1 /* Pods-ASRate_Example.release.xcconfig */,
+			);
+			name = "Pods-ASRate_Example";
+			path = "Target Support Files/Pods-ASRate_Example";
+			sourceTree = "<group>";
+		};
+		769E66BE64275F0336DC785F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA50ADF366352F6A625BAA94 /* Info.plist */,
+				6761307A95B88B3B4374C341 /* Info.plist */,
+				B4E7D6D06F66E5445911358F /* Pods-ASRate_Example-ASRate.modulemap */,
+				6D2CBF20DE88B0F57075E7D0 /* Pods-ASRate_Example-ASRate.xcconfig */,
+				E1BBE837D563C55B48D29C44 /* Pods-ASRate_Example-ASRate-Private.xcconfig */,
+				647FB7588ABF525F35B74084 /* Pods-ASRate_Example-ASRate-dummy.m */,
+				12B0662A3AAE92637787CD28 /* Pods-ASRate_Example-ASRate-prefix.pch */,
+				1C2CEB190705D978EA2CBB8A /* Pods-ASRate_Example-ASRate-umbrella.h */,
+				C1188C9617DB7A65D382B1E9 /* Pods-ASRate_Tests-ASRate.modulemap */,
+				9057EBF929084CA6C0D20FBF /* Pods-ASRate_Tests-ASRate.xcconfig */,
+				02E68137C57A21A025947029 /* Pods-ASRate_Tests-ASRate-Private.xcconfig */,
+				25ED4F1834F45B7B9C9A3C69 /* Pods-ASRate_Tests-ASRate-dummy.m */,
+				1FFBE44C7C882C43015DC820 /* Pods-ASRate_Tests-ASRate-prefix.pch */,
+				DCADB93756648C2F60C8D535 /* Pods-ASRate_Tests-ASRate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ASRate_Example-ASRate";
+			sourceTree = "<group>";
+		};
+		8B818A6CDC05FF440DE6BF0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1E24944DFA63F397D61DA19 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9919475D80C7E55808029843 /* Pods-ASRate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				203E69C66E0BFCE08928C160 /* Info.plist */,
+				9A9D1863860816FD537D618B /* Pods-ASRate_Tests.modulemap */,
+				6909B6603817C8EE31BA1699 /* Pods-ASRate_Tests-acknowledgements.markdown */,
+				84C22A585DB2127C89D0FBF9 /* Pods-ASRate_Tests-acknowledgements.plist */,
+				C73F8F6FA28F6502ACFC4F54 /* Pods-ASRate_Tests-dummy.m */,
+				E270788668BA773916A710E7 /* Pods-ASRate_Tests-environment.h */,
+				A98D31D86A7AC97DD470E2A4 /* Pods-ASRate_Tests-frameworks.sh */,
+				EF3304F28DD580B60314839F /* Pods-ASRate_Tests-resources.sh */,
+				5640B489A23CAC767E5A8A56 /* Pods-ASRate_Tests-umbrella.h */,
+				212118558FA18CE67EDD408A /* Pods-ASRate_Tests.debug.xcconfig */,
+				679707320A0AD08536220CFB /* Pods-ASRate_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASRate_Tests";
+			path = "Target Support Files/Pods-ASRate_Tests";
+			sourceTree = "<group>";
+		};
+		A31B23754476B656B2295382 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E46DE9608E10958A3DEDC91 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BC91DC3A216AF356BCAF2F22 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				271B471924973A32352F2804 /* ASRate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C34E29DAAB7C083FE191FBFD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74FBCDF632BE9E70F5559540 /* Pods-ASRate_Example */,
+				9919475D80C7E55808029843 /* Pods-ASRate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F90D79B6FD74E4EBAFE99A88 = {
+			isa = PBXGroup;
+			children = (
+				2D4DBEE3D48F4A9CE4F913B2 /* Podfile */,
+				BC91DC3A216AF356BCAF2F22 /* Development Pods */,
+				61A87BA5F782936861B6C1AF /* Frameworks */,
+				FBB0D711728A3AD3626562B0 /* Products */,
+				C34E29DAAB7C083FE191FBFD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB0D711728A3AD3626562B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF708F7376AD825D3AFE5A0 /* ASRate.bundle */,
+				C5CE737F4BEBCB318C1989E0 /* ASRate.bundle */,
+				421DB7BF86246D63E5C160C5 /* ASRate.framework */,
+				E389691C50C81095860BDC4B /* ASRate.framework */,
+				7834F0FC7C76BEB20C4F07D9 /* Pods_ASRate_Example.framework */,
+				11F2367D5B4864857E3C6663 /* Pods_ASRate_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		420C1C71B9A456A57310E674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A92254FEE36CAD6823ADD4 /* Pods-ASRate_Tests-ASRate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60FB6DC114B3C5D94F4B7D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A595EC5A49C1230D114E783D /* Pods-ASRate_Example-ASRate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B43E186F754AD69918A73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24F2CB72A6998CF2FD7D76F /* Pods-ASRate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC13CE614B958F3849FEDE8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5282F945142DAFC248C9797B /* Pods-ASRate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		001B5EB416F0833860C9D816 /* Pods-ASRate_Tests-ASRate-ASRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D4718CDD7CE970109A3E7D /* Build configuration list for PBXNativeTarget "Pods-ASRate_Tests-ASRate-ASRate" */;
+			buildPhases = (
+				B2ABD1741DE75CF624CF23CA /* Sources */,
+				1C282C7967AAB079C9E75883 /* Frameworks */,
+				DBA05CF0EFC285D4FBA87110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASRate_Tests-ASRate-ASRate";
+			productName = "Pods-ASRate_Tests-ASRate-ASRate";
+			productReference = DEF708F7376AD825D3AFE5A0 /* ASRate.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0CB6164B5D0AFF9790B121AF /* Pods-ASRate_Example-ASRate-ASRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B69A9F30ED3C611F90FA80D /* Build configuration list for PBXNativeTarget "Pods-ASRate_Example-ASRate-ASRate" */;
+			buildPhases = (
+				D25197406C218C053C8296F1 /* Sources */,
+				9C70EC0909B764CD81D489D3 /* Frameworks */,
+				3B620023500BD5C3A7DBC17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASRate_Example-ASRate-ASRate";
+			productName = "Pods-ASRate_Example-ASRate-ASRate";
+			productReference = C5CE737F4BEBCB318C1989E0 /* ASRate.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5AFF79BBBBF185B3EEE37712 /* Pods-ASRate_Example-ASRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F170CCEA8296CD11128C31E /* Build configuration list for PBXNativeTarget "Pods-ASRate_Example-ASRate" */;
+			buildPhases = (
+				610A803795A7ABA3E8977592 /* Sources */,
+				1B01D78CC08F63CF275AF1B3 /* Frameworks */,
+				8CEB79548CA5B659C6D74415 /* Resources */,
+				B60FB6DC114B3C5D94F4B7D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998DB7364DBB9A3E475DF037 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASRate_Example-ASRate";
+			productName = "Pods-ASRate_Example-ASRate";
+			productReference = 421DB7BF86246D63E5C160C5 /* ASRate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACBA3C3E6A87BE280A8AF6C9 /* Pods-ASRate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2E5437F46A96F0BA93FE2A /* Build configuration list for PBXNativeTarget "Pods-ASRate_Example" */;
+			buildPhases = (
+				BAA0F83D7BA8B78A712C94DA /* Sources */,
+				150D52F74A862CDCC64621B6 /* Frameworks */,
+				DC13CE614B958F3849FEDE8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6290AA17F4AB3E6DD3A6A80 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASRate_Example";
+			productName = "Pods-ASRate_Example";
+			productReference = 7834F0FC7C76BEB20C4F07D9 /* Pods_ASRate_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0E2EC88DEEAD9C9B49B5374 /* Pods-ASRate_Tests-ASRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C67751217A51A5ACBFB3439 /* Build configuration list for PBXNativeTarget "Pods-ASRate_Tests-ASRate" */;
+			buildPhases = (
+				45401AC7C0589F42F5AB7C74 /* Sources */,
+				EEBAE4AACDCE8A30A3D04EC7 /* Frameworks */,
+				935653A8FBABD8A926941703 /* Resources */,
+				420C1C71B9A456A57310E674 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9628A6A210475A17B763F1B /* PBXTargetDependency */,
+			);
+			name = "Pods-ASRate_Tests-ASRate";
+			productName = "Pods-ASRate_Tests-ASRate";
+			productReference = E389691C50C81095860BDC4B /* ASRate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7D640A1176D71411BB45401 /* Pods-ASRate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CB52877E14581B4F7241B0 /* Build configuration list for PBXNativeTarget "Pods-ASRate_Tests" */;
+			buildPhases = (
+				B784A4154A3949B17BF6DA9D /* Sources */,
+				0CFAFD09DCED8084E9031527 /* Frameworks */,
+				C38B43E186F754AD69918A73 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3370D82262F11482C559F6E /* PBXTargetDependency */,
+			);
+			name = "Pods-ASRate_Tests";
+			productName = "Pods-ASRate_Tests";
+			productReference = 11F2367D5B4864857E3C6663 /* Pods_ASRate_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B6CE8E7D62FBC3A80E9286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = B11368257014ECEEFC1B76D1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F90D79B6FD74E4EBAFE99A88;
+			productRefGroup = FBB0D711728A3AD3626562B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACBA3C3E6A87BE280A8AF6C9 /* Pods-ASRate_Example */,
+				5AFF79BBBBF185B3EEE37712 /* Pods-ASRate_Example-ASRate */,
+				0CB6164B5D0AFF9790B121AF /* Pods-ASRate_Example-ASRate-ASRate */,
+				F7D640A1176D71411BB45401 /* Pods-ASRate_Tests */,
+				C0E2EC88DEEAD9C9B49B5374 /* Pods-ASRate_Tests-ASRate */,
+				001B5EB416F0833860C9D816 /* Pods-ASRate_Tests-ASRate-ASRate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B620023500BD5C3A7DBC17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEB79548CA5B659C6D74415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EC97C50CADCF7D8577589A /* ASRate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935653A8FBABD8A926941703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD832ECCA908FAD534C8BD48 /* ASRate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA05CF0EFC285D4FBA87110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45401AC7C0589F42F5AB7C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B0D136ACD2BB451FF327A8 /* Pods-ASRate_Tests-ASRate-dummy.m in Sources */,
+				56495F2EE843D45BD134AC8A /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610A803795A7ABA3E8977592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3087716039D4D40EAD80E2A8 /* Pods-ASRate_Example-ASRate-dummy.m in Sources */,
+				DB8EB5B2C0BBD3CBD886E1E0 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABD1741DE75CF624CF23CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B784A4154A3949B17BF6DA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9C7A0404D98BC685CC5DAC /* Pods-ASRate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA0F83D7BA8B78A712C94DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202DB26D2A40AF3C61AAFA59 /* Pods-ASRate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25197406C218C053C8296F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		998DB7364DBB9A3E475DF037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASRate_Example-ASRate-ASRate";
+			target = 0CB6164B5D0AFF9790B121AF /* Pods-ASRate_Example-ASRate-ASRate */;
+			targetProxy = DE7A475D746123A98F3BA490 /* PBXContainerItemProxy */;
+		};
+		C6290AA17F4AB3E6DD3A6A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASRate_Example-ASRate";
+			target = 5AFF79BBBBF185B3EEE37712 /* Pods-ASRate_Example-ASRate */;
+			targetProxy = 13D168C9D7331B435F5BAE32 /* PBXContainerItemProxy */;
+		};
+		D3370D82262F11482C559F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASRate_Tests-ASRate";
+			target = C0E2EC88DEEAD9C9B49B5374 /* Pods-ASRate_Tests-ASRate */;
+			targetProxy = 0B5A054EC9F25687117D9D21 /* PBXContainerItemProxy */;
+		};
+		F9628A6A210475A17B763F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASRate_Tests-ASRate-ASRate";
+			target = 001B5EB416F0833860C9D816 /* Pods-ASRate_Tests-ASRate-ASRate */;
+			targetProxy = C756AFCD3AB8081D3B946C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04AF5782B03FAF9F30ADF3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24A68C5CEE8D456E4871ED2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BBE837D563C55B48D29C44 /* Pods-ASRate_Example-ASRate-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASRate_Example-ASRate/Pods-ASRate_Example-ASRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Example-ASRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Example-ASRate/Pods-ASRate_Example-ASRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		327AF08AA536063E76469D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B21AB7CA485660E7D0DFE1 /* Pods-ASRate_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Example/Pods-ASRate_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASRate_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		366D4ED96F4C9E75A1AC7B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E68137C57A21A025947029 /* Pods-ASRate_Tests-ASRate-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ASRate_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3CF8722DC55DDA07910C7819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BBE837D563C55B48D29C44 /* Pods-ASRate_Example-ASRate-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ASRate_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		41FFB9EC61535EAC3606045C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E68137C57A21A025947029 /* Pods-ASRate_Tests-ASRate-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ASRate_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4552E37EEA4709E43DFC8F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BBE837D563C55B48D29C44 /* Pods-ASRate_Example-ASRate-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ASRate_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7DB4CA90EF462DD543D1BC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8FBF627A5514DECB1916E065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E68137C57A21A025947029 /* Pods-ASRate_Tests-ASRate-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Tests-ASRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4152E97C0D24D38FE4C64E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212118558FA18CE67EDD408A /* Pods-ASRate_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Tests/Pods-ASRate_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASRate_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC6FB0D4F2527B7A09593C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BBE837D563C55B48D29C44 /* Pods-ASRate_Example-ASRate-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASRate_Example-ASRate/Pods-ASRate_Example-ASRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Example-ASRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Example-ASRate/Pods-ASRate_Example-ASRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA1A82D91846EE0CDBAED04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E68137C57A21A025947029 /* Pods-ASRate_Tests-ASRate-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Tests-ASRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Tests-ASRate/Pods-ASRate_Tests-ASRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD55628CF53FE503B8CDF720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9D59899B0A50A62BDF7210 /* Pods-ASRate_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Example/Pods-ASRate_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASRate_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD83153EFB3AB19BA2C61193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679707320A0AD08536220CFB /* Pods-ASRate_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASRate_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ASRate_Tests/Pods-ASRate_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASRate_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C67751217A51A5ACBFB3439 /* Build configuration list for PBXNativeTarget "Pods-ASRate_Tests-ASRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1A82D91846EE0CDBAED04E /* Debug */,
+				8FBF627A5514DECB1916E065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B69A9F30ED3C611F90FA80D /* Build configuration list for PBXNativeTarget "Pods-ASRate_Example-ASRate-ASRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF8722DC55DDA07910C7819 /* Debug */,
+				4552E37EEA4709E43DFC8F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F170CCEA8296CD11128C31E /* Build configuration list for PBXNativeTarget "Pods-ASRate_Example-ASRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A68C5CEE8D456E4871ED2F /* Debug */,
+				BC6FB0D4F2527B7A09593C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D4718CDD7CE970109A3E7D /* Build configuration list for PBXNativeTarget "Pods-ASRate_Tests-ASRate-ASRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366D4ED96F4C9E75A1AC7B2F /* Debug */,
+				41FFB9EC61535EAC3606045C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2E5437F46A96F0BA93FE2A /* Build configuration list for PBXNativeTarget "Pods-ASRate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD55628CF53FE503B8CDF720 /* Debug */,
+				327AF08AA536063E76469D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11368257014ECEEFC1B76D1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB4CA90EF462DD543D1BC84 /* Debug */,
+				04AF5782B03FAF9F30ADF3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CB52877E14581B4F7241B0 /* Build configuration list for PBXNativeTarget "Pods-ASRate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4152E97C0D24D38FE4C64E6 /* Debug */,
+				CD83153EFB3AB19BA2C61193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B6CE8E7D62FBC3A80E9286 /* Project object */;
+}

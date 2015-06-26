@@ -1,0 +1,14 @@
+PODS:
+  - ASRate (0.1.0)
+
+DEPENDENCIES:
+  - ASRate (from `../`)
+
+EXTERNAL SOURCES:
+  ASRate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASRate: 472f28805fdd917bfcfb40004d332e653bcc758e
+
+COCOAPODS: 0.37.2
