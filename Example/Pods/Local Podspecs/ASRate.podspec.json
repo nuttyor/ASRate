@@ -17,6 +17,14 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
+  "dependencies": {
+    "Parse": [
+
+    ],
+    "DQAlertView": [
+
+    ]
+  },
   "resource_bundles": {
     "ASRate": [
       "Pod/Assets/*.png"

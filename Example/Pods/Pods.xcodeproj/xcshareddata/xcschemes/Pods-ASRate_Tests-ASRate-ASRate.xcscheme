@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE6288E59EE8A5F0777B6614"
+               BlueprintIdentifier = "EB60E7A21A3650ADDDC56E71"
                BuildableName = "ASRate.bundle"
                BlueprintName = "Pods-ASRate_Tests-ASRate-ASRate"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,5 +1,11 @@
 PODS:
-  - ASRate (0.1.0)
+  - ASRate (0.1.0):
+    - DQAlertView
+    - Parse
+  - Bolts/Tasks (1.2.0)
+  - DQAlertView (1.2.1)
+  - Parse (1.7.5):
+    - Bolts/Tasks (>= 1.2.0)
 
 DEPENDENCIES:
   - ASRate (from `../`)
@@ -9,6 +15,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ASRate: 472f28805fdd917bfcfb40004d332e653bcc758e
+  ASRate: ed4bddf6b1a8bb1375616352ebe9f251278414cb
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  DQAlertView: 438c2799ae5437f2f9683f8a627314aa91eb5032
+  Parse: 7c0f115eff3e0cea3fac08d50bda47154edb8832
 
 COCOAPODS: 0.37.2

@@ -8,11 +8,29 @@
 
 #import "ASAppDelegate.h"
 
+#import <ASRate/ASRate.h>
+
+@interface ASAppDelegate () <ASRateDelegate>
+
+@end
+
+#define YOUR_PARSE_APPID       @""
+#define YOUR_PARSE_CLIENTID    @""
+
 @implementation ASAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // Init with your parse app id and client id
+    [[ASRate sharedInstance] setParseApplicationId:YOUR_PARSE_APPID ParseClientKey:YOUR_PARSE_CLIENTID];
+    // Set first show session. Default is 5
+    [ASRate sharedInstance].sessionCountFirstShow = 5;
+    // Set show again session. Default is 10
+    [ASRate sharedInstance].sessionCountShowAgain = 10;
+    // Set delegate if you want
+    [ASRate sharedInstance].delegate = self;
     return YES;
 }
 							
