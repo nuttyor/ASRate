@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C3927F5C2D3E27D34D410D9 /* Pods_ASRate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E39E6570492A49AFB77C23 /* Pods_ASRate_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		5825FC687A6087D1ACF2AA4C /* Pods_ASRate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668C08A241C9594E1C08B31A /* Pods_ASRate_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1C51DABAD931A31711F88111 /* libPods-ASRate_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AD7EE7D037E7F5E46A6B1C /* libPods-ASRate_Example.a */; };
+		42E3BD4BB408E4831B277C00 /* libPods-ASRate_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5D36645745F80D5641DEA8 /* libPods-ASRate_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +39,7 @@
 		0E1D8E85BDD03935DF6BF4E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1B653C26D0DCCCE6490EB55F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		28DD7D733B5059A252E2E47A /* Pods-ASRate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASRate_Tests/Pods-ASRate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C5D36645745F80D5641DEA8 /* libPods-ASRate_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASRate_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E895E49ABEEDCD0B461B321 /* ASRate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASRate.podspec; path = ../ASRate.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ASRate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,10 +60,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		668C08A241C9594E1C08B31A /* Pods_ASRate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AD7EE7D037E7F5E46A6B1C /* libPods-ASRate_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASRate_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7732EB8B9C79332D67D1D7A9 /* Pods-ASRate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASRate_Example/Pods-ASRate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		79AF5177EC65F207FC61ABBE /* Pods-ASRate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRate_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASRate_Tests/Pods-ASRate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		83E39E6570492A49AFB77C23 /* Pods_ASRate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EE9A07D5511C9FB17F40FF08 /* Pods-ASRate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASRate_Example/Pods-ASRate_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0C3927F5C2D3E27D34D410D9 /* Pods_ASRate_Example.framework in Frameworks */,
+				1C51DABAD931A31711F88111 /* libPods-ASRate_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5825FC687A6087D1ACF2AA4C /* Pods_ASRate_Tests.framework in Frameworks */,
+				42E3BD4BB408E4831B277C00 /* libPods-ASRate_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				83E39E6570492A49AFB77C23 /* Pods_ASRate_Example.framework */,
-				668C08A241C9594E1C08B31A /* Pods_ASRate_Tests.framework */,
+				66AD7EE7D037E7F5E46A6B1C /* libPods-ASRate_Example.a */,
+				2C5D36645745F80D5641DEA8 /* libPods-ASRate_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				1E476CF5748B4CDA8C27E294 /* Embed Pods Frameworks */,
 				443A9C8B828E1370CC0E1C21 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -224,7 +223,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F99B64DFF910D9381F376C13 /* Embed Pods Frameworks */,
 				1CADDE25C6B420D02FE00695 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -308,21 +306,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASRate_Tests/Pods-ASRate_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1E476CF5748B4CDA8C27E294 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASRate_Example/Pods-ASRate_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		443A9C8B828E1370CC0E1C21 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,21 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F99B64DFF910D9381F376C13 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASRate_Tests/Pods-ASRate_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

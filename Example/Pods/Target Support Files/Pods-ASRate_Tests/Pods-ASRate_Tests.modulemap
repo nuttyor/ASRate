@@ -1,6 +1,0 @@
-framework module Pods_ASRate_Tests {
-  umbrella header "Pods-ASRate_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
