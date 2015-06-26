@@ -24,6 +24,11 @@ pod "ASRate"
 
 Yor, nutt@appsynth.net
 
+## Credit
+
+Special thanks for iRate. A part of this code come from https://github.com/nicklockwood/iRate.
+Thanks AXRatingView and DQAlertView for make our UI easier.
+
 ## License
 
 ASRate is available under the MIT license. See the LICENSE file for more info.
